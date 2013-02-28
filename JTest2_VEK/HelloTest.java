@@ -5,6 +5,8 @@ public class HelloTest{
 		Random r = new Random();
 		System.out.println("Here is one pseudorandom number: "  
 			+ r.nextInt());
-		System.out.println("Here are another two: " + "\n" + r.nextInt() 			+ "\n" + r.nextInt());
+		System.out.println("Here are another two: " + "\n" + r.nextInt()
+			+ "\n" + r.nextInt());
+		System.out.println("This line was added on GitHub.")
 	}
 }
